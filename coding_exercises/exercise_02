@@ -1,0 +1,104 @@
+Constant
+How to solve these coding exercises:
+
+Write your solution in Go Playground (https://play.golang.org) and then click on the Run button.
+
+If your solution is not correct, then try to understand the error messages, rewrite the solution and press the Run button again. Repeat this step until you get the correct solution.
+
+Each exercise should be solved in Go Playground in its own file. Save the URL of each file for future reference or recap.
+
+Alternatively, you can write the solution in VSCode and run the program in terminal using: go run main.go
+
+
+
+Coding Exercise #1
+
+Using the const keyword declare and initialize the following constants:
+
+1. daysWeek with value 7
+
+2. lightSpeed with value 299792458
+
+3. pi with value 3.14159
+
+Run the program without errors.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #2
+
+Change the code from the previous exercise and declare all 3 constants as grouped constants.
+
+Make them untyped.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #3
+
+ Calculate how many seconds are in a year.
+
+ STEPS:
+
+ 1. Declare secPerDay constant and initialize it to the number of seconds in a day
+
+ 2. Declare daysYear constant and initialize it to 365
+
+ 3. Use fmt.Printf() to print out the total number of seconds in a year.
+
+EXPECTED OUTPUT:
+
+There are 31536000 seconds in a year.
+
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #4
+
+There are an error in the following Go program. Try to identify the error, change the code and run the program without errors.
+
+package main
+ 
+func main() {
+    const x int = 10
+ 
+    // declaring a constant of type slice int ([]int)
+    const m = []int{1: 3, 4: 5, 6: 8}
+    _ = m
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #5
+
+There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
+
+package main
+ 
+import "math"
+ 
+func main() {
+	const a int = 7
+	const b float64 = 5.6
+	const c = a * b
+ 
+	x := 8
+	const xc int = x
+ 
+	const noIPv6 = math.Pow(2, 128)
+}
+Are you stuck? Do you want to see the solution for this exercise? Click here.
+
+
+
+Coding Exercise #6
+
+Using Iota declare the following months of the year: Jun, Jul and Aug
+
+Jun, Jul and Aug are constant and their value is 6, 7 and 8.
+
